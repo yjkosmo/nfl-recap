@@ -154,4 +154,8 @@ details.spoiler .body{padding:0 14px 14px}
 .final{display:flex;justify-content:center;align-items:center;gap:10px;margin:8px 0 12px}
 .final .sc{font-size:30px;font-weight:700;font-family:'Oswald',sans-serif}
 footer{border-top:1px solid var(--line);margin-top:36px;padding-top:14px;font-size:12px;color:var(--mut);text-align:center}
+.cp{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:14px 0;padding:12px 16px;border:1px solid var(--line);border-left:5px solid #e52c33;border-radius:8px;background:#fff}
+.cp .t{font-size:14px;font-weight:700;line-height:1.4}.cp .bd{display:inline-block;background:#111;color:#fff;font-size:11px;font-weight:900;padding:2px 7px;border-radius:4px;margin-right:6px;vertical-align:1px}
+.cp a.btn{flex:none;background:#e52c33;color:#fff;font-size:13px;font-weight:900;padding:8px 14px;border-radius:6px;text-decoration:none}.cp a.btn:hover{background:#b81f25}
+footer a{color:inherit}
 @media(max-width:520px){h1{font-size:27px}.lead .art{height:170px}.lead .art img{width:110px;height:110px}.lead .tx b{font-size:21px}.brand{font-size:18px}.gnav a{padding:0 9px;font-size:14px}}
