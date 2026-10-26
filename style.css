@@ -27,8 +27,8 @@ a{color:#0b57d0;text-decoration:none}
 .tk .gm .r img{width:18px;height:18px;object-fit:contain}
 .tk .gm .r .sc{margin-left:auto;font-weight:700;min-width:18px;text-align:right}
 .tk .gm .r.lo{color:#8a8f96}
-.tk .gm .hl{display:inline-block;margin-top:3px;font-size:11px;font-weight:700;color:#cc0000;font-family:'Noto Sans KR',sans-serif;letter-spacing:.2px}
-.tk .gm .hl:hover{text-decoration:underline}
+.tk .gm .yth{display:inline-block;margin-top:3px;font-size:11px;font-weight:700;color:#cc0000;font-family:'Noto Sans KR',sans-serif;letter-spacing:.2px}
+.tk .gm .yth:hover{text-decoration:underline}
 /* layout */
 .wrap{max-width:1080px;margin:0 auto;padding:18px 14px 40px}
 .narrow{max-width:760px}
