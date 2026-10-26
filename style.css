@@ -29,6 +29,13 @@ a{color:#0b57d0;text-decoration:none}
 .tk .gm .r.lo{color:#8a8f96}
 .tk .gm .yth{display:inline-block;margin-top:3px;font-size:11px;font-weight:700;color:#cc0000;font-family:'Noto Sans KR',sans-serif;letter-spacing:.2px}
 .tk .gm .yth:hover{text-decoration:underline}
+.tk .rgm{position:relative;cursor:pointer}
+.tk .rgm .rph{filter:blur(5px);opacity:.55;user-select:none;pointer-events:none}
+.tk .rgm .rph i{display:inline-block;width:18px;height:18px;border-radius:50%;background:#c9ccd1}
+.tk .rgm .rrev{position:absolute;inset:0;width:100%;border:0;background:rgba(245,246,247,.35);cursor:pointer;font:700 12px/1.35 'Noto Sans KR',sans-serif;color:#111;padding:4px}
+.tk .rgm .rrev:hover{color:var(--red)}
+.tk .rgm.open{cursor:default}
+.tk .rgm .rhide{display:block;margin-top:3px;border:1px solid var(--line);background:#fff;border-radius:3px;font:600 10px 'Noto Sans KR',sans-serif;color:var(--mut);padding:1px 6px;cursor:pointer}
 /* layout */
 .wrap{max-width:1080px;margin:0 auto;padding:18px 14px 40px}
 .narrow{max-width:760px}
